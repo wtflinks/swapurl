@@ -10,29 +10,29 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = "6803628783:AAEwq_HQnXxhrfRPUwllg4TgX_XcDSu5RcY"
+TG_BOT_TOKEN = "6742876658:AAHTNUdKKZVaCQgsGRa0B8qv6kVLBk5RH2U"
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "29759992"))
+APP_ID = int(os.environ.get("APP_ID", "21118585"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "61f150cdca64b2916fa499d107393140")
+API_HASH = os.environ.get("API_HASH", "ee05a7c74bd7dc0a8b2c6d0cbb0caf47")
 
 #Your db channel Id
 
 #Your db channel Id
-CHANNEL_ID = int(-)
+CHANNEL_ID = int(-1002005291746)
 
 
 #OWNER ID
-OWNER_ID = 5964198959
+OWNER_ID = 7035291765
 
 
 PORT = os.environ.get("PORT", "8080")
 
 
-DB_URI= ""
-DB_NAME = "Optimizaid"
+DB_URI= "mongodb+srv://wtflinksofficial:wtflinksofficial@cluster0.fiqxg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_NAME = "wtflinksofficial"
 
 
 SHORTLINK_URL1 = os.environ.get("SHORTLINK_URL1", "publicearn.com")
